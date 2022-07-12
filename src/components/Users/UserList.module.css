@@ -1,0 +1,39 @@
+.users {
+  margin: 2rem auto;
+  width: 90%;
+  max-width: 40rem;
+}
+
+.users p {
+  padding: 1rem;
+}
+
+.users ul {
+  list-style: none;
+  padding: 1rem;
+}
+
+.users li {
+  border: 1px solid #ccc;
+  margin: 0.5rem 0;
+  padding: 0.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.delete-btn {
+    display: none;
+}
+
+.users li:hover .delete-btn {
+    display: block;
+    border: 1px solid #df4759;
+    background-color: #df4759;
+    border-radius: 0.6em;
+}
+
+.users li:hover .delete-btn:hover {
+    border: 1px solid #e9243b;
+    background-color: #e9243b;
+}
